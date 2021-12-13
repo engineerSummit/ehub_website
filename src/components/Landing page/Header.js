@@ -7,7 +7,15 @@ const Header = () => {
             <img src={logo} className="logo" height="50px" alt="Website logo" />
             <div className="elements">
                 <h4>About</h4>   
-                <h4>Services</h4>   
+                <h4 className="dropdownbtn">Services</h4>
+                <div className="dropdown">
+                  <a href="#">Services</a>
+                  <a href="#">Services</a>
+                  <a href="#">Services</a>
+                  <a href="#">Services</a>
+                  <a href="#">Services</a>
+                  <a href="#">Services</a>
+                </div>   
                 <h4>Campus Ambassader</h4>   
                 <h4>Material</h4>   
                 <h4>Internships</h4>   
